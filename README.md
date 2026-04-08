@@ -1,11 +1,11 @@
-# iOS Voicemail Converter
+# Voicemail Extractor Library
 
 TypeScript library to extract and convert voicemail audio from iOS device backups (iTunes/Finder) to WAV format.
 
 ## Installation
 
 ```bash
-npm install ios-voicemail-converter
+npm install voicemail-extractor-lib
 ```
 
 ## Requirements
@@ -16,7 +16,7 @@ npm install ios-voicemail-converter
 ## Usage
 
 ```typescript
-import { extractVoicemails, discoverBackups, checkFfmpeg } from 'ios-voicemail-converter';
+import { extractVoicemails, discoverBackups, checkFfmpeg } from 'voicemail-extractor-lib';
 
 // Check FFmpeg availability
 const ffmpeg = await checkFfmpeg();

@@ -1,5 +1,5 @@
 /**
- * iOS Voicemail Converter — Public API
+ * Voicemail Extractor Library — Public API
  *
  * TypeScript library to extract and convert voicemail audio from iOS device
  * backups (iTunes/Finder) to WAV format.

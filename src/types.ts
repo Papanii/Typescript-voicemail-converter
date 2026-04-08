@@ -1,5 +1,5 @@
 /**
- * All shared interfaces, enums, and type definitions for the iOS Voicemail Converter.
+ * All shared interfaces, enums, and type definitions for the Voicemail Extractor Library.
  */
 
 /** Audio format enum matching iOS voicemail file types */

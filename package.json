@@ -1,5 +1,5 @@
 {
-  "name": "ios-voicemail-converter",
+  "name": "voicemail-extractor-lib",
   "version": "1.0.0",
   "description": "TypeScript library to extract and convert voicemail audio from iOS device backups",
   "type": "module",
