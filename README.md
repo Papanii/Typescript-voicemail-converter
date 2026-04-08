@@ -13,7 +13,26 @@ npm install voicemail-extractor-lib
 - Node.js >= 18
 - FFmpeg installed and available in PATH
 
-## Usage
+## CLI Usage
+
+```bash
+# List available iOS backups
+npx voicemail-extract --list-backups
+
+# Check FFmpeg installation
+npx voicemail-extract --check-ffmpeg
+
+# Extract voicemails to a directory
+npx voicemail-extract -o ./voicemail-output
+
+# With all options
+npx voicemail-extract -o ./output --keep-originals --include-metadata --verbose
+
+# Target a specific device
+npx voicemail-extract -o ./output -d <UDID>
+```
+
+## Library Usage
 
 ```typescript
 import { extractVoicemails, discoverBackups, checkFfmpeg } from 'voicemail-extractor-lib';

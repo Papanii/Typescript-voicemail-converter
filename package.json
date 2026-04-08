@@ -12,6 +12,9 @@
       "types": "./dist/index.d.ts"
     }
   },
+  "bin": {
+    "voicemail-extract": "./dist/cli.js"
+  },
   "files": [
     "dist"
   ],
